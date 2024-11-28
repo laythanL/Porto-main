@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio laythan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+
+    <script
+      src="https://unpkg.com/lenis@1.1.17/dist/lenis.min.js"
+      defer
+    ></script>
+    <script src="/assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><h4>laythan lattesha</h4></div>
+
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#project">PROJECT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <main>
+      <section class="home" id="home">
+        <div class="home-content">
+          <h1>Hello! I am Laythan Lateesha Kamiharja</h1>
+          <p>
+            Frontend Developer and software engineering student. Welcome to my
+            portfolio explore my work and journey in web development!
+          </p>
+
+          <div class="btn">
+            <a href="">CV </a>
+            <a href="#about">About me</a>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-content">
+          <h2>About</h2>
+          <p>
+            I am a student from SMK Plus Pelita Nusantara Bogor majoring in
+            Software Engineering, Although still in the learning stage, I have a
+            high enthusiasm to continue learning and developing myself in the
+            field of Software Engineering.
+          </p>
+
+          <div class="skills">
+            <h2>Skills</h2>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>PHP</span>
+            <span>Java Script</span>
+            <span>C++</span>
+          </div>
+        </div>
+        <div class="foto"><img src="assets/images/laytanxxx.jpg" alt="" /></div>
+      </section>
+      <section class="project" id="project">
+        <div class="project-content">
+          <h2>Projects</h2>
+
+          <div class="container">
+
+            <div class="project-container">
+              <!-- Link buat ke project, bisa link ke github/reponya atau webnya -->
+              <a href="" target="_blank">
+                <div class="image-container">
+                  <span class="stamp">Click Me</span>
+                  <!-- Usahain img nya landscape -->
+                  <img
+                    class="project-img"
+                    src="assets/images/mike-kenneally-tNALoIZhqVM-unsplash.jpg"
+                    alt="Project Img"
+                  />
+                  <span class="project-name">Lorem Ipsum</span>
+                </div>
+              </a>
+              <div class="project-details">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+
+            <div class="project-container">
+              <!-- Link buat ke project, bisa link ke github/reponya atau webnya -->
+              <a href="" target="_blank">
+                <div class="image-container">
+                  <span class="stamp">Click Me</span>
+                  <!-- Usahain img nya landscape -->
+                  <img
+                    class="project-img"
+                    src="assets/images/mike-kenneally-tNALoIZhqVM-unsplash.jpg"
+                    alt="Project Img"
+                  />
+                  <span class="project-name">Lorem Ipsum</span>
+                </div>
+              </a>
+              <div class="project-details">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+
+            <div class="project-container">
+              <!-- Link buat ke project, bisa link ke github/reponya atau webnya -->
+              <a href="" target="_blank">
+                <div class="image-container">
+                  <span class="stamp">Click Me</span>
+                  <!-- Usahain img nya landscape -->
+                  <img
+                    class="project-img"
+                    src="assets/images/mike-kenneally-tNALoIZhqVM-unsplash.jpg"
+                    alt="Project Img"
+                  />
+                  <span class="project-name">Lorem Ipsum</span>
+                </div>
+              </a>
+              <div class="project-details">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form method="post" name="Contact Form" class="contactForm" id="myForm">
+          <p class="field">
+            <label for="name">Name:</label>
+            <input class="area" type="text" name="name" id="name" required />
+          </p>
+          <p class="field">
+            <label for="email">Email:</label>
+            <input class="area" type="email" name="email" id="email" required />
+          </p>
+          <p class="field">
+            <label for="comments">Message:</label>
+            <textarea class="area" required></textarea>
+          </p>
+          <p class="field">
+            <input
+              class="submit"
+              type="submit"
+              value="Submit"
+              onclick="alert('This feature is temporarily suspended, please contact my email directly instead')"
+            />
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="icon">
+        <!-- github lu -->
+        <a href="https://github.com/laythanL">
+          <img src="assets/images/svg/github.svg" alt="GitHub" />
+        </a>
+
+        <!-- linkedin lu -->
+        <a href="https://id.linkedin.com/in/">
+          <img src="assets/images/svg/link.svg" alt="LinkedIn" />
+        </a>
+
+        <!-- ig lu  -->
+        <a href="https://www.instagram.com/">
+          <img src="assets/images/svg/ig.svg" alt="Instagram" />
+        </a>
+      </div>
+      <div class="more">
+        <h3>Let's work together.</h3>
+        <!-- Kasih email lu, mailto nya biarin aja -->
+        <a href="mailto:">Contact Me</a>
+        <h4>@laythanlk 2024</h4>
+      </div>
+    </footer>
+  </body>
+</html>
