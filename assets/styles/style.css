@@ -417,13 +417,13 @@ footer {
   }
   
   .home-content {
-  h1{
-    font-size: 2.2rem;
-  }
-   p {
-    font-size: 1.3rem;
-  }
+    h1{
+      font-size: 2.2rem;
     }
+    p {
+      font-size: 1.3rem;
+    } 
+  }
     
   .about {
     flex-direction: column;
